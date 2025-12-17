@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { GeneratePromptRequest } from "../types";
 
-const processEnvApiKey = process.env.API_KEY;
+const const processEnvApiKey = import.meta.env.VITE_API_KEY;
 
 if (!processEnvApiKey) {
   console.error("API Key is missing. Please ensure process.env.API_KEY is set.");
