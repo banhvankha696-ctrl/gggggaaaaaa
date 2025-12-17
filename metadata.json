@@ -1,0 +1,5 @@
+{
+  "name": "PromptCraft AI",
+  "description": "Ứng dụng chuyên nghiệp giúp tạo prompt chi tiết từ hình ảnh và gợi ý của người dùng sử dụng Gemini 2.5 Flash.",
+  "requestFramePermissions": []
+}
